@@ -55,7 +55,14 @@ var confg = module.exports = {
 
 	use: function( ) {
 		confg._getFile.apply( null, arguments );
+	},
+
+	/** ### confg.init
+	  *
+	  * initializes confg
+	  */
+
+	init: function( ){
+		confg.use( cwd + '/config.js');
 	}
 };
-
-confg.use( cwd + '/config.js');
