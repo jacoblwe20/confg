@@ -14,7 +14,7 @@ var confg = module.exports = {
 	  */
 
 	_getFile: function ( filename ) {
-		if( confg._isValidFile( filename ) ) {
+		if ( confg._isValidFile( filename ) ) {
 			var fn = require( filename );
 			if ( 'function' === typeof fn ){
 				fn( confg );
