@@ -20,7 +20,7 @@ module.exports = function( confg ){
 	confg.configuration({
 		APPSECRET: '2323O3IM4OIGM3OIM',
 		VERSION: pkg.version,
-		APPSTARTUP: +new Date()
+		APPSTARTUP: ( +new Date() ) + ''
 	});
 };
 ```
