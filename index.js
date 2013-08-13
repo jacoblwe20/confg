@@ -1,6 +1,6 @@
 var 
 cwd = process.cwd( ),
-path = require( 'path' );
+fs = require( 'fs' );
 
 /** # confg
   */
@@ -29,7 +29,7 @@ var confg = module.exports = {
 	  */
 
 	_isValidFile: function ( filename ) { 
-		return path.exsistSync( filename );
+		return fs.existsSync( filename );
 	},
 
 	/** ### confg.configuration

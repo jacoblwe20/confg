@@ -1,6 +1,6 @@
 {
   "name": "confg",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "confg helps config enviroment variables with javascript",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
     "variables"
   ],
   "author": "Jacob Lowe <http://jacoblowe.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  }
 }
