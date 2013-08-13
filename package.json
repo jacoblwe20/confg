@@ -1,0 +1,21 @@
+{
+  "name": "confg",
+  "version": "0.0.1",
+  "description": "confg helps config enviroment variables with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jacoblwe20/confg.git"
+  },
+  "keywords": [
+    "config",
+    "dotenv",
+    "enviroment",
+    "variables"
+  ],
+  "author": "Jacob Lowe <http://jacoblowe.me>",
+  "license": "MIT"
+}
