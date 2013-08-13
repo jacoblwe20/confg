@@ -1,6 +1,6 @@
 {
   "name": "confg",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "confg helps config enviroment variables with javascript",
   "main": "index.js",
   "scripts": {
