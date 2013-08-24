@@ -35,6 +35,7 @@ describe( 'confg', function () {
 				confg.init();
 				/* from /config.js */
 				assert.equal( "5", process.env.FIVE )
+				console.log(process.env.DESC)
 			}
 		)
 	} )
