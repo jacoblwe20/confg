@@ -1,5 +1,7 @@
 ### Confg
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/confg.svg)](https://greenkeeper.io/)
+
 Configurable enviroment with a js file.
 
 ```shell
